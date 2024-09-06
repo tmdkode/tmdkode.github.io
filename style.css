@@ -1,0 +1,94 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgoldenrod; 
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fredoka", sans-serif;
+    width: 25% ;
+    border-radius: 20%;
+    text-shadow: 
+    2px 2px 0px black,
+    -2px 2px 0px whitesmoke,
+    2px -2px 0px whitesmoke,
+    -2px -2px 0px whitesmoke;
+}
+
+
+body > header {
+    background-color: blanchedalmond;
+    color: darkgoldenrod;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+.navbutton {
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 75%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+img {
+    border-radius: 69%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 14px;
+}
+
+#footer-ul > div > li > a {
+    color: black;
+    text-decoration: none;
+}
